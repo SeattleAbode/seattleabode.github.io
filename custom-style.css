@@ -1,0 +1,587 @@
+body{
+  font-size: 1.5em;
+  /*background-color: rgb(0, 74, 140) !important;*/
+  opacity: 0;
+}
+html,body{
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.renaissance-header, #site-banner-container{
+  opacity: 0;
+  background-image: url('assets/images/seattle-night.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+  /*height: 200px;*/
+}
+.unit-title{
+  width: 100%;
+  margin: 0px;
+  padding: 5px 5px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.condo-title{
+  clear: right;
+  padding: 5px;
+  color: #f3f3f3;
+  font-weight: bold;
+  display: inline-block;
+}
+.available-date{
+  clear: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  padding: 0;
+  display: inline-block;
+  color: #f3f3f3;
+}
+.tobira-img{
+  margin: 15px;
+}
+.teaser-wrap{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.detail-top{
+  background-color: #222;
+  height: 75px;
+}
+.apply-btn{
+  float: right;
+  margin-top: 15px;
+}
+.apply-btn-wrap{
+  height: 75px;
+}
+#overlay{
+  position: fixed;
+  top: 0;
+  height: 0;
+  /*background-color: rgba(0,0,0,.5);*/
+  z-index:-9999;
+}
+#avail{
+  font-weight: bold;
+  font-family: 'roboto', sans-serif;
+}
+#bwg_standart_thumbnails_3 > .bwg_lightbox_3 > .bwg_standart_thumb_3 > .bwg_standart_thumb_spun1_3 > .bwg_standart_thumb_spun2_3 > img.bwg_standart_thumb_img_1{
+  padding:50px !important;
+}
+#application{
+  opacity: 0;
+  height: 0;
+  background-color: rgba(255,255,255,.9);
+  border-radius: 5px;
+  z-index:99999;
+}
+#prop-wrap,#wrapper{
+  width: 100%;
+}
+#clients-main{
+  position: relative;
+  width: 100%;
+  left: 100%;
+  opacity: 0;
+}
+#clients-wrap{
+  width: 100%;
+  padding-top: 50px;
+}
+#client-link{
+  display: none;
+  opacity: 0;;
+}
+#site-banner-container{
+  opacity: 1;
+  background-position: right !important;
+}
+#nav-container{
+  background-color: rgba(0,0,0,.5);
+  width: 100%;
+}
+#nav-wrap{
+  width: 100%;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+#nav-wrap li{
+  display: inline-block;
+  padding: 15px 0px;
+  border: 1px solid rgba(0,0,0,.5);
+}
+#site-banner-container{
+  opacity: 1;
+  height: 250px;
+  background-position: 30% 22%;
+  overflow: hidden;
+}
+#masthead.site-header.site-banner-wrap{
+  height: 197px;
+}
+#nav-wrap{
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+}
+#nav-wrap,.navbar-nav,.nav,.navbar{
+  min-height: 40px !important;
+}
+.navbar-nav{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#nav-wrap .navbar-nav li a{
+  font-size: 1em;
+  line-height: 0px;
+  padding:0;
+}
+#masthead.site-header.site-banner-wrap{
+  height: 250px;
+}
+#home-abode-black{
+  width: 250px;
+  margin-top: 30px;
+}
+.details{
+  font-size: 1.5em;
+  padding-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  position: relative;
+  margin-top: -25px;
+}
+.details ul{
+  line-height: 25px;
+  text-align: left;
+}
+#Saxony1-details,#Saxony2-details,#Saxony3-details,#Tobira-details,#SV-details{
+  height: 0;
+  opacity: 0;
+  padding: 15% 5%;
+  display: none;
+  width: 100%;
+}
+.unit-images{
+  float: none !important;
+  padding: 0;
+}
+#back-to{
+  display: none;
+  opacity: 0;
+}
+.link-seperator{
+  text-decoration: none;
+  font-weight: bold;
+}
+.site-content-wrap{
+  margin-top: 50px;
+}
+.site-banner-wrap > .navbar > .container > .navbar-header > .navbar-toggle{
+  /*display: block;
+  position: relative;
+  top: -50px;*/
+}
+.navbar{
+  margin-bottom: 0 !important;
+}
+.navbar-header,.navbar-nav{
+  width: 100% !important;
+  height: 50px;
+}
+.navbar-header{
+  height: 40px;
+}
+.middle-link:before{
+  content: '\A';
+}
+.prop-content{
+  position: relative;
+  top: 300px;
+  background-color: rgba(0,0,0,.5);
+  border-bottom: none;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding:0 !important;
+}
+.prop-block{
+  width: 200px;
+  border: 3px solid #000;
+}
+.prop-teaser{
+  margin: 1px 1px;
+  height: 200px;
+  color: #f3f3f3;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: left;
+}
+.prop-teaser ul li{
+  padding: 0;
+}
+.condo1{
+  background-image: url('assets/images/saxony-stone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.condo2{
+  background-image: url('assets/images/saxony-stone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.condo3{
+  background-image: url('assets/images/saxony-stone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.condo4{
+  background-image: url('assets/images/Tobira9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.condo5{
+  background-image: url('assets/images/SV9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.site-footer{
+  margin-top: 0px !important;
+}
+.condo-link{
+  position: relative;
+  top: 10%;
+  padding:10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  width: 100%;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: rgba(51,153,255,.8);
+  text-decoration: underline;
+  text-align: center;
+}
+#abode-about{
+  font-size: 1.5em;
+}
+.abode-rentals{
+  font-size: 1.6em;
+  padding-bottom: 50px;
+  line-height: 1em;
+}
+#properties-title,#clients-title{
+  font-size: 2em;
+  padding-top: 15px;
+}
+#masthead.site-header{
+  opacity: 0;
+  /*background-color:#fff;*/
+}
+#wrapper{
+  opacity: 0;
+  position: relative;
+  left: -100%;
+}
+#slide-in{
+  background-color: rgba(255,255,255,.8);
+}
+#about-us{
+  font-size: 1.6em;
+  line-height: 25px;
+}
+#about-us-holder{
+  background-image: url('assets/images/mountains2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+}
+#mission-statement,#clients-main{
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  width: 220px;
+  margin: 15px auto;
+  font-size: 1em;
+}
+#clients-main{
+  position: relative !important;
+  padding-top: 0;
+}
+#motto{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 1.5em;
+  width: 24%;
+}
+#banner-container{
+height: 100%;
+width: 100%;
+}
+#brand-name{
+  background-image: url('assets/images/abode-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  min-width: 130px;
+  height: 100px;
+  margin-top: 40px;
+  float: right;
+}
+#title-container{
+  float: left;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+#prop-wrap{
+  text-align: center;
+  display: inline-block;
+  opacity: 0;
+}
+#prop-container{
+  text-align: center;
+  opacity: 1;
+  max-width: 100%;
+  margin: 25px auto;
+}
+#prop-container .prop-block {
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  margin:20px auto;
+  height: 250px;
+  float: none !important;
+}
+#prop-container .prop-block .prop-content p{
+  text-transform: none;
+  font-weight: 400;
+}
+#prop-container .prop-block  .prop-content ul{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+#prop-container .prop-block  .prop-content ul li {
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  line-height: 20px;
+  font-size: 1em;
+  text-align: left;
+}
+#prop-container .prop-block .prop-content h6{
+  text-transform: none;
+}
+/*#clients-main{
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 15px 15px;
+}*/
+#clients-container{
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (min-width:200px){
+  /*.renaissance-header{
+    height: 200px;
+  }*/
+  .prop-container li {
+    width: 175px;
+  }
+  #brand-name.site-banner{
+    width: 125px;
+    margin-right: 5px;
+  }
+}
+@media screen and (min-width:300px){
+  /*.renaissance-header{
+    height: 215px;
+  }*/
+  .prop-container li {
+    width: 250px;
+  }
+  .prop-block, #mission-statement,#clients-main{
+    width: 275px;
+  }
+  #brand-name{
+    width: 165px;
+  }
+  #brand-name.site-banner{
+    width: 125px;
+    margin-right: 5px;
+  }
+  .site-banner-container{
+    height: 255px;
+  }
+}
+@media screen and (min-width:400px){
+  /*.renaissance-header{
+    height: 267px;
+  }*/
+  .prop-container li {
+    width: 300px;
+  }
+  .prop-block, #mission-statement,#clients-main {
+    width: 375px;
+  }
+  #brand-name{
+    width: 163px;
+  }
+  #masthead.site-header.site-banner-wrap {
+  height: 248px;
+  }
+  #nav-wrap li a{
+    font-size: 1em;
+  }
+}
+@media screen and (min-width:500px){
+  /*.renaissance-header{
+    height: 485px;
+  }*/
+  .prop-block, #mission-statement{
+    width: 400px;
+  }
+  #brand-name{
+    width: 300px;
+  }
+  #brand-name.site-banner {
+    width: 250px;
+  }
+}
+@media screen and (min-width:600px){
+  /*.renaissance-header{
+    height: 500px;
+  }*/
+  .prop-block, #mission-statement,#clients-main{
+    width: 400px;
+  }
+  #brand-name.site-banner {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width:768px){
+  /*.renaissance-header{
+    height: 520px;
+  }*/
+  /*#clients-main{
+    padding-top: 150px;
+  }*/
+  .abode-rentals,#about-us{
+    font-size: 1.2em;
+  }
+  .available-date{
+    font-size: 2em;
+  }
+  #Saxony1-details,#Saxony2-details,#Saxony3-details,#Tobira-details,#SV-details{
+    padding:3% 15%;
+  }
+  #mission-statement,#clients-main{
+    width: 70%;
+    font-size: 1.8em;
+  }
+  #mission-statement p{
+    line-height: 35px;
+    padding-top: 25px;
+  }
+  #motto{
+    font-size: 2.5em;
+    width: 24%;
+  }
+  #home-abode-black{
+    margin-top: 15px;
+    width: 290px;
+    background-color: rgab(255,255,255,.9);
+  }
+  #brand-name{
+    margin-top: 30px;
+    margin-right: 25px;
+    width: 350px;
+    height: 300px;
+  }
+  #prop-wrap{
+    padding-top: 25px;
+  }
+  #nav-wrap li{
+    border: none;
+  }
+  #nav-wrap .navbar-nav li a{
+    line-height: 20px;
+  }
+  #brand-name.site-banner {
+    width: 350px;
+    height: 250px;
+  }
+  #properties-title,#clients-title{
+    font-size: 3.5em;
+    width: 76%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    background-color: #222;
+  }
+  #clients-title{
+    width: 100%;
+    font-size: 2.5em;
+  }
+  #abode-about {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+  }
+  .abode-rentals{
+    padding: 30px;
+  }
+  #prop-container .prop-block{
+    margin: 15px 15px;
+  }
+  #clients-container{
+    width: 80%;
+  }
+  #nav-wrap{
+    position: fixed;
+    top: 0;
+  }
+}
+@media screen and (min-width:900px){
+  /*.renaissance-header{
+    height: 700px;
+  }*/
+  #brand-name{
+    width: 450px;
+    height: 300px;
+  }
+  #home-abode-black{
+    margin-top: 15px;
+    width: 400px;
+  }
+}
+@media screen and (min-width:1000px){
+  /*.renaissance-header{
+    height: 800px;
+  }*/
+  #prop-container .prop-block{
+    margin: 15px 15px;
+  }
+}
+@media screen and (min-width:1100px){
+  /*.renaissance-header{
+    height: 900px;
+  }*/
+}
